@@ -58,11 +58,12 @@ obj/Debug/net9.0/
  Mediator-Pattern.AssemblyInfo.cs
  Mediator-Pattern.GlobalUsings.g.cs
 Program.cs
-src/
- Components/Components.cs
- Mediator/
-  ConcreteMediator.cs
-  IMediator.cs
+src/Components/
+ ChatUser.cs
+ Components.cs
+src/Mediator/
+ ConcreteMediator.cs
+ IMediator.cs
 
 [metadataReferences]
 <DOTNET>/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/
