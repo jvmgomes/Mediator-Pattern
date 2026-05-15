@@ -16,9 +16,9 @@ namespace Mediator_Pattern.src.Components
             this._mediator = mediator;
         }
 
-        public void ReceiveMessage(string msg, Object sender)
+        public virtual void ReceiveMessage(string msg, Object sender)
         {
-            Console.WriteLine("Você tem uma nova mensagem:\n");
+            Console.WriteLine("Você tem uma nova mensagem:");
             Console.WriteLine($"{msg}\n");
         }
     }

@@ -15,5 +15,10 @@ namespace Mediator_Pattern.src.Components
             _mediator?.Notify(message, this);
         }
 
+        public override void ReceiveMessage(string msg, Object sender)
+        {
+            Console.WriteLine($"Você tem uma nova mensagem {_name}:");
+            Console.WriteLine($"{msg}\n");
+        }
     }
 }
